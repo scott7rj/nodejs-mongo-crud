@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    margin: 0;
+    padding: 0;
+    background-color: crimson;
+}
+div {
+    border: 1px solid black;
+}
+input[type="text"]:focus {
+    border: 1px solid red;
+}
+select:focus {
+    border: 1px solid red;
+}
+input[type="password"]:focus {
+    border: 1px solid red;
+}
+input[type="button"] {
+    margin: 0.2em;
+    padding: 0.2em;
+}
+input[type="button"]:hover {
+    cursor: pointer;
+    color: red;
+}
+input[type="button"]:focus {
+    color: red;
+}
+table {
+    margin: 8px 0px 4px 0px;
+    padding: 0;
+}
+table tr {
+    margin: 0;
+    padding: 0;
+}
+table th {
+    margin: 0px 0px 0px 0px;
+    padding: 0px 2px 0px 2px;
+    vertical-align: middle;
+    border: 1px solid black;
+    text-align: left;
+}
+table td {
+    margin: 0px 0px 0px 0px;
+    padding: 0px 2px 0px 2px;
+    vertical-align: middle;
+    border: 1px solid black;
+    text-align: left;
+}
+#wrapper {
+    font-size: 1.0em;
+    float:left;
+    border: 1px solid transparent;
+    width: 90%;
+}
+#wrapper > div {
+	background: #cccccc;
+	padding: 0.1em;
+}
+#wrapper > div:nth-child(odd) {
+	background: #aaaaaa;
+}
